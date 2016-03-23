@@ -1,0 +1,221 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  color: #043049;
+  font-size: 24px;
+  background: #f0efef;
+  line-height: 1.4;
+  color: #606161;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+header {
+  background: #033048;
+  padding: 30px 0;
+  overflow: hidden;
+}
+
+header .logo {
+  color: white;
+  float:left;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 0 0 40px;
+    font-size: 24px;
+}
+
+header nav ul li a {
+  color: #f9e42e;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 900px;
+  color: #033048;
+  width: 650px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #033048;
+}
+
+footer {
+  background: #121212;
+  padding: 65px 0 45px;
+  text-align: center;
+}
+
+footer .logo {
+  color: #f9e42e;
+  margin-bottom: 68px;
+}
+
+footer ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 26px 75px;
+}
+
+footer p {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.post img {
+  margin-bottom: 30px;
+}
+
+.post p {
+  font-size: 24px;
+  color: #606161;
+  width: 600px;
+  font-weight: lighter;
+}
+
+.readmore {
+  text-align: right;
+  margin-top: 30px;
+  font-weight: 900px;
+  text-decoration: underline;
+  color: #033048;
+}
+
+.post {
+  border-bottom: 1px solid #043049;
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+}
+
+.posts {
+    display: inline-block;
+    vertical-align: top;
+    /*width: 700px;*/
+    width: 75%;
+    float: left;
+}
+
+.button {
+  border-radius: 5px;
+  font-weight: 800;
+  width: 280px;
+  font-size: 28px;
+  text-align: center;
+}
+
+.blue {
+  background: #033048;
+  color: #fff;
+}
+
+#mainbody {
+    margin-top: 80px;
+    /*width: 75%;*/
+}
+
+#sidebar {
+  display: inline-block;
+  vertical-align: top;
+  width: 25%;
+  float: left;
+}
+
+#sidebar p {
+  font-size: 22px;
+  line-height: 1.1;
+}
+
+#sidebar ul li a {
+  color: #043049;
+  font-size: 24px;
+}
+
+#sidebar p a {
+    color: #043049;
+    font-weight: bold;
+}
+
+#bottom-cta {
+  padding: 30px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
