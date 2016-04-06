@@ -1,11 +1,13 @@
 //DOM elements load first
 $(document).ready(function() {
   //stop auto refresh with submit
+console.log ('if you see this, jQuery is working')
   $('#submit-btn').click(function(){
     event.preventDefault();
     //define the city variable
     var city = $('#city-type').val();
     $('#city-type').val('');
+    console.log("Your city is: " + city)
     //Isolating city names so they correspond with abbreviation, city, state
     if(city == 'new york city' || city == 'nyc' || city == 'new york'){
       $('body').attr('class', 'nyc');
