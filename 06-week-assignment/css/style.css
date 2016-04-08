@@ -1,0 +1,29 @@
+body {
+  background-color: black;
+  font-family: sans-serif;
+}
+/* Magic 8 Ball */
+h2 {
+  color: white;
+}
+/* Image */
+div.eightballimage {
+  height: 524px;
+  width: 524px;
+  background-image: url(http://www.blindscientist.com/magic8ball/images/Magic_eight_ball.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 10%;
+  left: 20%;
+}
+/* Answer*/
+div.response {
+  height: 100px;
+  width: 100px;
+  color: white;
+  position:relative;
+  top: 230px;
+  left: 213px;
+  text-align: center;
+}
