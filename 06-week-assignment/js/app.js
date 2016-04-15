@@ -13,4 +13,5 @@ console.log("If you see this, jQuery is working");
   }
 //Click button
   $('#submit').click(buttonClicked)
+
 });
